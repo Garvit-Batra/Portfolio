@@ -13,23 +13,23 @@ export default function Skills(props) {
 
       <h5 style={{ fontWeight: "bold" }}>Programming Languages</h5>
 
-      <i class="devicon-c-line icons"></i>
-      <i class="devicon-cplusplus-line icons"></i>
-      <i class="devicon-javascript-plain colored icons"></i>
-      <i class="devicon-html5-plain-wordmark colored icons"></i>
-      <i class="devicon-css3-plain-wordmark colored icons"></i>
-      <i class="devicon-python-plain-wordmark colored icons"></i>
-      <i class="devicon-mysql-plain-wordmark colored icons"></i>
-      <i class="devicon-rstudio-plain colored icons"></i>
+      <i className="devicon-c-line icons"></i>
+      <i className="devicon-cplusplus-line icons"></i>
+      <i className="devicon-javascript-plain colored icons"></i>
+      <i className="devicon-html5-plain-wordmark colored icons"></i>
+      <i className="devicon-css3-plain-wordmark colored icons"></i>
+      <i className="devicon-python-plain-wordmark colored icons"></i>
+      <i className="devicon-mysql-plain-wordmark colored icons"></i>
+      <i className="devicon-rstudio-plain colored icons"></i>
 
       <h5 style={{ fontWeight: "bold", marginTop: "1%" }}>Development</h5>
 
-      <i class="devicon-mongodb-plain-wordmark colored icons"></i>
-      <i class="devicon-express-original-wordmark colored icons"></i>
-      <i class="devicon-nodejs-plain-wordmark colored icons"></i>
-      <i class="devicon-react-original-wordmark colored icons"></i>
-      <i class="devicon-git-plain-wordmark colored icons"></i>
-      <i class="devicon-github-original-wordmark colored icons"></i>
+      <i className="devicon-mongodb-plain-wordmark colored icons"></i>
+      <i className="devicon-express-original-wordmark colored icons"></i>
+      <i className="devicon-nodejs-plain-wordmark colored icons"></i>
+      <i className="devicon-react-original-wordmark colored icons"></i>
+      <i className="devicon-git-plain-wordmark colored icons"></i>
+      <i className="devicon-github-original-wordmark colored icons"></i>
     </div>
   );
 }

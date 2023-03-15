@@ -12,9 +12,11 @@ export default function Project() {
       <h5>Check out my GitHub!</h5>
       <a
         href="https://github.com/Garvit-Batra"
-        class="fa fa-github"
+        className="fa fa-github"
         style={{ fontSize: "2.5rem", color: "black" }}
-      ></a>
+      >
+        {" "}
+      </a>
     </div>
   );
 }

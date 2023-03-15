@@ -30,17 +30,25 @@ function First() {
           <div>
             <a
               href="https://www.instagram.com/garvit.batra/"
-              class="fa fa-instagram"
-            ></a>
+              className="fa fa-instagram"
+            >
+              {" "}
+            </a>
             <a
               href="https://www.linkedin.com/in/garvit-batra"
-              class="fa fa-linkedin"
-            ></a>
-            <a href="https://github.com/Garvit-Batra" class="fa fa-github"></a>
+              className="fa fa-linkedin"
+            >
+              {" "}
+            </a>
+            <a href="https://github.com/Garvit-Batra" className="fa fa-github">
+              {" "}
+            </a>
             <a
               href="mailto:batra.garvit28@gmail.com"
-              class="fa fa-envelope"
-            ></a>
+              className="fa fa-envelope"
+            >
+              {" "}
+            </a>
           </div>
         </div>
         <img
