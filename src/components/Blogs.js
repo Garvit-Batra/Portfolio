@@ -1,9 +1,8 @@
 import React from "react";
-import Navbar from "./Navbar";
 export default function Blogs() {
   return (
     <div>
-      <Navbar />
+      <h1>Will update soon!</h1>
     </div>
   );
 }

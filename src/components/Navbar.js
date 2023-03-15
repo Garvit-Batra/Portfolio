@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <div style={{ marginBottom: "7%" }}>
-      <nav class="navbar navbar-expand-lg shadow p-2 mb-3">
+    <div style={{ marginBottom: "4%" }}>
+      <nav class="navbar navbar-expand-lg shadow-lg p-2 mb-5">
         <div class="container-fluid">
           <Link class="navbar-brand" to="/">
             Home

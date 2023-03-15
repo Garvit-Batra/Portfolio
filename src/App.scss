@@ -2,10 +2,20 @@ img {
   height: 30%;
   width: 30%;
   border-radius: 50%;
+  box-shadow: 0 0 3px 2px black;
+}
+h2 {
+  font-weight: bolder;
+}
+p {
+  font-weight: bold;
+}
+hr {
+  height: 3px;
+  background: black;
 }
 body {
   height: 100%;
-  overflow: auto;
   font-family: "Open Sans", sans-serif;
 }
 .App {
@@ -40,9 +50,9 @@ body {
 
 .block {
   margin-top: 1%;
-  margin-bottom: 1%;
+  margin-bottom: 4%;
   display: inline-block;
-  background: #eaeaea;
+  background: #d9d7d7;
   border-radius: 10px;
   box-shadow: 0 2px 5px #ccc;
   padding: 1%;
@@ -59,7 +69,6 @@ body {
 }
 
 .block-text {
-  text-align: left;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -73,7 +82,7 @@ body {
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
-  color: #a6d1e1;
+  color: #ffe851;
 }
 
 .fa:hover {
@@ -81,8 +90,12 @@ body {
   text-decoration: none;
 }
 .navbar {
-  background: #a6d1e1;
+  background: #ffe851;
 }
 .heading {
   font-weight: bolder;
+}
+.icons {
+  font-size: 3rem;
+  margin-right: 1%;
 }

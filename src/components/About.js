@@ -1,11 +1,17 @@
 import React from "react";
-import Navbar from "./Navbar";
 import Education from "./Education";
+import Skills from "./Skills";
+import Project from "./Project";
 export default function About() {
   return (
     <div>
-      <Navbar />
       <Education />
+      <br />
+      <br />
+      <Skills />
+      <br />
+      <br />
+      <Project />
     </div>
   );
 }
