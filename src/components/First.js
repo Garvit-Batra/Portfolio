@@ -2,14 +2,12 @@ import React, { useEffect } from "react";
 import Pic from "../assets/myPic.jpg";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import Stars from "./Stars";
 function First() {
   useEffect(() => {
     Aos.init({ duration: 2000 });
   }, []);
   return (
     <>
-      <Stars />
       <div
         data-aos="fade-right"
         style={{ marginTop: "8%", marginBottom: "5%", verticalAlign: "middle" }}
