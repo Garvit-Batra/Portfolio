@@ -6,17 +6,15 @@ export default function Project() {
     Aos.init({ duration: 2000 });
   }, []);
   return (
-    <div data-aos="fade-right" style={{ alignContent: "center" }}>
+    <div data-aos="fade-right">
       <h2>PROJECTS</h2>
-      <hr style={{ margin: "2% 20% 2% 20%", align: "center" }}></hr>
+      <hr></hr>
       <h5>Check out my GitHub!</h5>
       <a
         href="https://github.com/Garvit-Batra"
-        className="fa fa-github"
-        style={{ fontSize: "2.5rem", color: "black" }}
-      >
-        {" "}
-      </a>
+        className="fa fa-github icons project"
+        style={{ color: "black" }}
+      ></a>
     </div>
   );
 }

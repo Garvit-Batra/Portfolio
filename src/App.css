@@ -1,101 +1,58 @@
+body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  color: rgb(60, 60, 60);
+}
 img {
   height: 30%;
   width: 30%;
   border-radius: 50%;
-  box-shadow: 0 0 3px 2px black;
-}
-h2 {
-  font-weight: bolder;
-}
-p {
-  font-weight: bold;
+  box-shadow: 0 2px 5px white;
 }
 hr {
   height: 3px;
   background: black;
+  width: 75%;
+  margin: 2% auto 2% auto;
 }
-body {
-  height: 100%;
-  font-family: "Open Sans", sans-serif;
-}
-.App {
-  text-align: center;
-}
-
-.fade-enter {
-  opacity: 0;
-}
-
-.fade-enter-active {
-  opacity: 1;
-  transition: opacity 1000ms ease-in-out;
-}
-.fade-exit {
-  opacity: 1;
-}
-
-.fade-exit-active {
-  opacity: 0;
-  transition: opacity 500ms ease-in-out;
-}
-.navbar-brand,
-.navbar-nav a {
-  font-family: "Open Sans", sans-serif;
-  font-weight: bolder;
-}
-.navbar-nav > li {
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.block {
-  margin-top: 1%;
-  margin-bottom: 4%;
-  display: inline-block;
-  background: #d9d7d7;
-  border-radius: 10px;
-  box-shadow: 0 2px 5px #ccc;
-  padding: 1%;
-  width: 70%;
-}
-
-.fade-in {
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
-}
-
-.fade-in.visible {
-  opacity: 1;
-}
-
-.block-text {
+.type {
   display: flex;
-  flex-direction: column;
-  align-items: center;
 }
-
-.fa {
-  padding: 10px;
-  margin: 2px;
-  font-size: 30px;
-  width: auto;
+.container-f {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+@media only screen and (max-width: 500px) {
+  .icons {
+    font-size: 3rem;
+  }
+}
+@media only screen and (min-width: 500px) {
+  .icons {
+    font-size: 4rem;
+  }
+}
+.social {
+  margin: 2%;
+  padding: 1%;
+  font-size: xx-large;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
-  color: #ffe851;
+  color: rgb(60, 60, 60);
 }
-
+.project {
+  text-decoration: none;
+  margin-bottom: 2%;
+}
 .fa:hover {
   opacity: 0.5;
   text-decoration: none;
-}
-.navbar {
-  background: #ffe851;
-}
-.heading {
-  font-weight: bolder;
-}
-.icons {
-  font-size: 3rem;
-  margin-right: 1%;
 }

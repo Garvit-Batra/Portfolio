@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import Pic from "../assets/myPic.jpg";
 import Aos from "aos";
+import Typewriter from "typewriter-effect";
 import "aos/dist/aos.css";
 function First() {
   useEffect(() => {
@@ -10,56 +11,61 @@ function First() {
     <>
       <div
         data-aos="fade-right"
-        style={{ marginTop: "8%", marginBottom: "5%", verticalAlign: "middle" }}
+        className="container-f"
+        style={{ marginTop: "7%" }}
       >
-        <div
-          style={{
-            display: "inline-block",
-            verticalAlign: "middle",
-            marginRight: "2%",
-          }}
-        >
-          <div>
-            <h1 className="writing-text heading">Garvit Batra</h1>
-
-            <h2 className="writing-text heading">Pre-final Year Student</h2>
-            <h2 className="writing-text heading">
-              B.E. Computer Science Engineering
-            </h2>
+        <div>
+          <div className="mx-5">
+            <div className="container-f">
+              <h1 className="type">
+                I am&nbsp;
+                <Typewriter
+                  options={{
+                    strings: [
+                      " Garvit Batra.",
+                      " a Web Developer.",
+                      " a Student.",
+                    ],
+                    autoStart: true,
+                    loop: true,
+                  }}
+                  onInit={(typewriter) => {
+                    typewriter.pauseFor(100).deleteAll().start();
+                  }}
+                />
+              </h1>
+            </div>
+            <h2>Pre-Final Year</h2>
+            <h2>B.E. Computer Science Engineering</h2>
           </div>
           <div>
             <a
               href="https://www.instagram.com/garvit.batra/"
-              className="fa fa-instagram"
+              className="fa fa-instagram social"
             >
               {" "}
             </a>
             <a
               href="https://www.linkedin.com/in/garvit-batra"
-              className="fa fa-linkedin"
+              className="fa fa-linkedin social"
             >
               {" "}
             </a>
-            <a href="https://github.com/Garvit-Batra" className="fa fa-github">
+            <a
+              href="https://github.com/Garvit-Batra"
+              className="fa fa-github social"
+            >
               {" "}
             </a>
             <a
               href="mailto:batra.garvit28@gmail.com"
-              className="fa fa-envelope"
+              className="fa fa-envelope social"
             >
               {" "}
             </a>
           </div>
         </div>
-        <img
-          style={{
-            display: "inline-block",
-            verticalAlign: "middle",
-            marginTop: "1%",
-          }}
-          src={Pic}
-          alt="pic"
-        ></img>
+        <img src={Pic} alt="pic" className="mx-5"></img>
       </div>
     </>
   );
