@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg p-2 mb-5 mt-4">
+    <nav className="navbar navbar-expand-lg p-2 mb-5 mt-4 navbar-dark">
       <div className="container-fluid">
         <button
           className="navbar-toggler mx-auto"
@@ -18,7 +18,7 @@ export default function Navbar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav mx-auto">
-            <li className="nav-item mx-5">
+            <li className="nav-item mx-5 heading">
               <Link className="nav-link" aria-current="page" to="/">
                 Home
               </Link>

@@ -13,7 +13,7 @@ export default function Project() {
       <a
         href="https://github.com/Garvit-Batra"
         className="fa fa-github icons project"
-        style={{ color: "black" }}
+        style={{ color: "white" }}
       ></a>
     </div>
   );
