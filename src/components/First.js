@@ -17,8 +17,8 @@ function First() {
         <div>
           <div className="mx-5">
             <div className="container-f">
-              <h1 className="type">
-                I am&nbsp;
+              <h1>I am &nbsp;</h1>
+              <h1>
                 <Typewriter
                   options={{
                     strings: [
@@ -35,8 +35,13 @@ function First() {
                 />
               </h1>
             </div>
-            <h2>Pre-Final Year</h2>
-            <h2>B.E. Computer Science Engineering</h2>
+            <h2>Pre-Final</h2>
+            <h2>Year</h2>
+            <br></br>
+            <h2>B.E.&nbsp;</h2>
+            <h2>Computer&nbsp;</h2>
+            <h2>Science&nbsp;</h2>
+            <h2>Engineering</h2>
           </div>
           <div>
             <a

@@ -9,9 +9,12 @@
 h1,
 h2 {
   font-family: boldFont;
-  background: -webkit-linear-gradient(#eee 40%, #333);
+  background: linear-gradient(#eee 40%, #333);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  display: inline-block;
 }
 body {
   display: flex;
