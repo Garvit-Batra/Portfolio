@@ -17,14 +17,14 @@ function First() {
         <div>
           <div className="mx-5">
             <div className="container-f">
-              <h1>I am &nbsp;</h1>
+              <h1>I am&nbsp;</h1>
               <h1>
                 <Typewriter
                   options={{
                     strings: [
-                      " Garvit Batra.",
-                      " a Web Developer.",
-                      " a Student.",
+                      "Garvit Batra.",
+                      "a Web Developer.",
+                      "a Student.",
                     ],
                     autoStart: true,
                     loop: true,
@@ -35,7 +35,7 @@ function First() {
                 />
               </h1>
             </div>
-            <h2>Pre-Final</h2>
+            <h2>Pre-Final&nbsp;</h2>
             <h2>Year</h2>
             <br></br>
             <h2>B.E.&nbsp;</h2>
