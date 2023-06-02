@@ -21,7 +21,7 @@ export default function Education(props) {
       </p>
 
       <p>
-        12th Standard, CBSE (2017-2018)
+        10th Standard, CBSE (2017-2018)
         <br /> Sachdeva Public School, Rohini, Delhi
       </p>
     </div>
