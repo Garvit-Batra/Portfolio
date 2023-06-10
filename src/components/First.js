@@ -35,7 +35,7 @@ function First() {
                 />
               </h1>
             </div>
-            <h2>Pre-Final&nbsp;</h2>
+            <h2>Final&nbsp;</h2>
             <h2>Year</h2>
             <br></br>
             <h2>B.E.&nbsp;</h2>
