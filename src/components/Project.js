@@ -12,7 +12,7 @@ export default function Project() {
       <h5>Check out my GitHub!</h5>
       <a
         href="https://github.com/Garvit-Batra"
-        className="fa fa-github icons project"
+        className="fa fa-github icons project items mt-1"
         style={{ color: "white" }}
       ></a>
     </div>

@@ -90,3 +90,12 @@ hr {
 .navbar-nav a {
   font-family: boldFont;
 }
+.items {
+  flex-basis: 5%;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+.items:hover {
+  transform: scale(1.5);
+  cursor: default;
+}
